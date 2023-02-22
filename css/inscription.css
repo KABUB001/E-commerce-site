@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(19, 10, 151, 0.2);
+}
+.grand-form{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.form{
+    width: 500px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 0px 1px;
+
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 400px;
+    
+
+}
+
+input {
+    margin-top: 20px;
+}
+button {
+    margin-top: 20px;
+}
+p {
+    text-align: center;
+}
+a{
+    color: black;
+    font-weight: bold;
+}
+.boutton2 {
+    margin-left: 50px;
+    width: 400px;
+}

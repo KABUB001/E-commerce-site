@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;   
+    font-family: blinker;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container1 {
+    width : 1040px;
+    margin: auto;
+}
+/*navbar*/
+.div-search{
+   
+    
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 4px;
+    margin-top: 30px;
+}
+input {
+    border: none;
+}
+.profile{
+    width : 65px;
+    height: auto;
+    padding-bottom: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:450px;
+    margin-right: 10px;
+    
+}
+
+.fa-chevron-down{
+    display:block;
+    position: relative;
+    bottom: 50px;
+}
+.fa1{
+    left: 20px;
+    bottom: 60px;
+}
+.fa2{
+    left: 20px;
+    bottom:40px;
+    
+}
+.fa-cart-shopping{
+    margin-left: 15px;
+}
+.fa-shop{
+    margin-left: 12px;
+}
+.logo{
+    width: 239px;
+    height: 100px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+/*NAV*/
+
+
+/*BODY*/
+
+.container2 {
+    width : 1040px;
+    margin: auto;
+}
+
+.explore{
+    width: 214px;
+    height: 432px;
+    border: 1px solid black;
+    box-shadow: 1px 1px ;
+    text-align: center;
+}
+
+.image-principale {
+    width: 608px;
+    height: 322px;
+    background-image: url(../images/tumblr_oopmcdSpxW1tz243l_og_1280.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;;
+
+}
+
+.pubs-1{
+    width: 165px;
+    height: 432px;
+}
+
+.session1 {
+    display: flex;
+    justify-content: space-between 
+}
+.explore-1{
+    width: 165px;
+    height: 191px;
+    background-color: orange;
+    margin-bottom: 50px;
+}
+.pub1{
+    width: 165px;
+    height: 191px;
+    background-color: green;
+}
+.avantages{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.avantages img{
+    width: 110px;
+    height: 80px;
+}
+/* Section Produits*/
+
+/*section2*/
+/*.section2{
+    width: 1006px;
+    height: 232px;
+    display: flex;
+    justify-content: space-between;
+}
+.section2 img{
+    width: 12rem;
+    height: 11rem;
+    border-radius: 20px;
+}
+.section2 p{
+    text-align: center;
+}*/
+/*section3*/
+span i{
+    color:  red;
+}
+.fa-regular{
+    color: grey;
+}
+.section3{
+    margin-left: 250px;
+    width: auto;
+    height: 1140px;
+    display: grid;
+    grid-template-columns: 33%  33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+.div-prod{
+    width: 200px;
+    height: 301px;
+    padding-top: 20px;
+}
+.div-img {
+    width: 230px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div-details {
+    width: 230px;
+    height: 81px;
+    
+}
+
+.div-details p{
+    font-size: 13px;
+}
+
+.div-img1{
+    background-image: url(../images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img2{
+    background-image: url(../images/costume-veste-homme-deux-poitrine-simple-revers-cl.webp); 
+}
+.div-img3{
+    background-image: url(../images/costume-veste-homme-deux-poitrine-simple-revers-cl\ \(1\).webp); 
+}
+.div-img4{
+    background-image: url(../images/costume-veste-homme-deux-poitrine-simple-revers-cl\ \(2\).webp); 
+}
+.div-img5{
+    background-image: url(../images/43f6ec00a660c2368802511b45790d63.jpeg); 
+}
+.div-img6{
+    background-image: url(../images/téléchargement\ \(1\).jpeg); 
+}
+.div-img7{
+    background-image: url(../images/71QM7LM+3GL._AC_SX679_.jpg); 
+}
+.div-img8{
+    background-image: url(../images/713dXrV3NHL._AC_UX466_.jpg); 
+}
+.div-img9{
+    background-image: url(../images/rBVaSFufaQWAM53hAAKovAKrbcA811.jpeg); 
+}
+.div-img10{
+    background-image: url(images/robe2.jpeg); 
+}
+.div-img11{
+    background-image: url(images/robe3.webp); 
+}
+.div-img12{
+    background-image: url(images/robe4.png); 
+}
+.div-img13{
+    background-image: url(images/louboutin.jpeg); 
+}
+.div-img14{
+    background-image: url(images/boots-4125r-bordeaux-1_600x.webp); 
+}
+.div-img15{
+    background-image: url(images/maxresdefault.jpeg); 
+    background-size: contain;
+}
+.div-img16{
+    background-image: url(images/ps09_suede_calf_neoprene_calf_silk_multi_kaki_pierre_hardy_01.jpeg); 
+    background-position: center;
+    background-size: contain;
+}
+
+
+.boutton-panier{
+    margin-top: 10px;
+    height: 30px;
+    width: 230px;
+    text-align: center;
+    padding-top: 0.5em;
+    color :white;
+}
+a:hover .boutton-panier{
+    background-color: orange;
+    color: green;
+}
+
+.div-details-haut{
+   text-align: center;
+}
+
+.div-details-plus{
+    margin-left: 3rem;
+}

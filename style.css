@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;   
+    font-family: blinker;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container1 {
+    width : 1040px;
+    margin: auto;
+}
+/*navbar*/
+.div-search{
+   
+    
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 4px;
+    margin-top: 30px;
+}
+input {
+    border: none;
+}
+.profile{
+    width : 65px;
+    height: auto;
+    padding-bottom: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:450px;
+    margin-right: 10px;
+    
+}
+
+.fa-chevron-down{
+    display:block;
+    position: relative;
+    bottom: 50px;
+}
+.fa1{
+    left: 20px;
+    bottom: 60px;
+}
+.fa2{
+    left: 20px;
+    bottom:40px;
+    
+}
+.fa-cart-shopping{
+    margin-left: 15px;
+}
+.fa-shop{
+    margin-left: 12px;
+}
+.logo{
+    width: 239px;
+    height: 100px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+.logo-panier{
+ cursor: pointer;
+}
+
+/*NAV*/
+/************  CART  ***********/
+.cart{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 22rem;
+    min-height: 100vh;
+    padding: 1.25rem;
+    background: whitesmoke;
+    box-shadow: -2px 0 4px whitesmoke;
+    overflow: scroll ;
+    transition: 0.3s;
+}
+.cart.active{
+    right: 0;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.cart-img{
+    width: 6.25rem;
+    height: 6.25rem;
+    object-fit: contain;
+    padding: 10px;
+}
+.detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+}
+.cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.cart-price{
+    font-weight: 500;
+}
+.cart-quantity{
+    border: 1px solid black;
+    outline-color: black;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.cart-remove{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid black;
+}
+.total-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.total-price{
+    margin-left: 0.5rem;
+}
+.btn-buy {
+    display:flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background-color: white;
+    color:black;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-buy:hover{
+    background-color: rgb(42, 177, 42);
+}
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+}
+#close-cart:hover{
+
+}
+
+/******************************/
+
+
+/*BODY*/
+
+.container2 {
+    width : 1040px;
+    margin: auto;
+}
+
+.explore{
+    width: 214px;
+    height: 432px;
+    border: 1px solid black;
+    box-shadow: 1px 1px ;
+    text-align: center;
+}
+
+.image-principale {
+    width: 608px;
+    height: 432px;
+    background-image: url(images/banner-StValentin-FR-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+
+}
+
+.pubs-1{
+    width: 165px;
+    height: 432px;
+}
+
+.session1 {
+    display: flex;
+    justify-content: space-between 
+}
+.explore-1{
+    width: 165px;
+    height: 191px;
+    background-color: orange;
+    margin-bottom: 50px;
+}
+.pub1{
+    width: 165px;
+    height: 191px;
+    background-color: green;
+}
+
+/* Section Produits*/
+
+/*section2*/
+.section2{
+    width: 1006px;
+    height: 232px;
+    display: flex;
+    justify-content: space-between;
+}
+.section2 img{
+    width: 12rem;
+    height: 11rem;
+    border-radius: 20px;
+}
+.section2 p{
+    text-align: center;
+}
+/*section3*/
+span i{
+    color:  red;
+}
+.fa-regular{
+    color: grey;
+}
+.section3{
+    width: auto;
+    height: 1500px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.div-prod{
+    width: 200px;
+    height: 301px;
+    padding-top: 20px;
+}
+.div-img {
+    width: 230px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div-details {
+    width: 230px;
+    height: 81px;
+    
+}
+
+.div-details p{
+    font-size: 13px;
+}
+
+.div-img img{
+    width: 230px;
+    height: 220px;
+
+}
+/*
+.div-img1{
+    background-image: url(images/blazer-homme-veste-de-costume-party-vetement-mascu.webp); 
+}
+.div-img2{
+    background-image: url(images/costume-veste-homme-deux-poitrine-simple-revers-cl.webp); 
+}
+.div-img3{
+    background-image: url(images/costume-veste-homme-deux-poitrine-simple-revers-cl\ \(1\).webp); 
+}
+.div-img4{
+    background-image: url(images/costume-veste-homme-deux-poitrine-simple-revers-cl\ \(2\).webp); 
+}
+.div-img5{
+    background-image: url(images/mauboussin-bague-tellement-sublime_emeraude.png); 
+}
+.div-img6{
+    background-image: url(images/bijoux.png); 
+}
+.div-img7{
+    background-image: url(images/bijoux2.webp); 
+}
+.div-img8{
+    background-image: url(images/bijoux3.jpeg); 
+}
+.div-img9{
+    background-image: url(images/robe1.jpeg); 
+}
+.div-img10{
+    background-image: url(images/robe2.jpeg); 
+}
+.div-img11{
+    background-image: url(images/robe3.webp); 
+}
+.div-img12{
+    background-image: url(images/robe4.png); 
+}
+.div-img13{
+    background-image: url(images/louboutin.jpeg); 
+}
+.div-img14{
+    background-image: url(images/boots-4125r-bordeaux-1_600x.webp); 
+}
+.div-img15{
+    background-image: url(images/maxresdefault.jpeg); 
+    background-size: contain;
+}
+.div-img16{
+    background-image: url(images/ps09_suede_calf_neoprene_calf_silk_multi_kaki_pierre_hardy_01.jpeg); 
+    background-position: center;
+    background-size: contain;
+}
+*/
+
+.boutton-panier{
+    margin-top: 10px;
+    height: 30px;
+    width: 230px;
+    text-align: center;
+    padding-top: 0.5em;
+    color :white;
+    cursor: pointer;
+}
+.div-prod:hover .boutton-panier{
+    background-color: orange;
+    color: green;
+}
+
+.div-details-haut{
+   text-align: center;
+}
+
+
+.div-details-plus{
+    margin-left: 3rem;
+}
+
+.footer{
+    width:auto;
+    background-color: rgb(18, 17, 17);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer {
+    color: whitesmoke;
+    width: 1040px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.div-centre {
+    margin-top: 2px;
+   
+}
+
+.div-centre img{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 10px;
+    
+}
+
+.cp-right{
+    display: block;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+
+}
+
+
+    
+   
+
+.fa-brands{
+    font-size: 2.4rem;
+}

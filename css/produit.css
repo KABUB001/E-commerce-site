@@ -1,0 +1,23 @@
+*{
+    font-family: blinker;
+}
+section {
+    width: 1040px;
+    height: 839px;
+    margin: auto;
+}
+
+.image-left {
+    float: left;
+}
+
+.sous-image img{
+    width: 3.44rem;
+    height: 3.31rem;
+}
+
+.details-right {
+    width: 34rem;
+    height: 29.13rem;
+    float: right;
+}
