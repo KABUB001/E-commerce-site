@@ -5,14 +5,16 @@ let closeCart = document.querySelector('#close-cart');
 
 //Open cart
 cartIcon.addEventListener("click", function(){
-    console.log("bijoux");
+    
     cart.classList.add('active');
+    cartIcon.style.color = "red";
 })
 
 //Close cart
 closeCart.addEventListener("click", function(){
-    console.log("bijoux");
+    
     cart.classList.remove('active');
+    cartIcon.style.color = "black";
 })
 
 
@@ -121,6 +123,11 @@ function updateTotal(){
         document.getElementsByClassName('total-price')[0].innerText = total + " FCFA";
     }
 }
+
+
+//For Carousel
+
+const image = document.querySelector("#image-principale");
 
 
 

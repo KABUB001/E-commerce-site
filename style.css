@@ -122,6 +122,9 @@ header{
     text-align: center;
     font-size: 1rem;
 }
+.fa-xmark{
+    color: red
+}
 .cart-remove{
     font-size: 1.5rem;
     cursor: pointer;
@@ -151,7 +154,9 @@ header{
     cursor: pointer;
 }
 .btn-buy:hover{
-    background-color: rgb(42, 177, 42);
+    /* background-color: rgb(42, 177, 42); */
+    background-color: rgba(255, 0, 0, 0.176);
+    color: rgba(255, 0, 0, 0.685);
 }
 .cart-title{
     text-align: center;
@@ -168,7 +173,7 @@ header{
     cursor: pointer;
 }
 #close-cart:hover{
-
+color: red;
 }
 
 /******************************/
@@ -188,14 +193,19 @@ header{
     box-shadow: 1px 1px ;
     text-align: center;
 }
+#image-principale{
+    width: 608px;
+    height: 432px;
+}
 
 .image-principale {
     width: 608px;
     height: 432px;
-    background-image: url(images/banner-StValentin-FR-1.jpg);
+    /* background-image: url(images/banner-StValentin-FR-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;;
+    background-position: center; */
+    
 
 }
 
@@ -211,13 +221,19 @@ header{
 .explore-1{
     width: 165px;
     height: 191px;
-    background-color: orange;
+    background-image: url(/images/5fc0bc8f6a56f.jpeg);
+    background-size: cover;
+    background-position: center;
     margin-bottom: 50px;
 }
 .pub1{
     width: 165px;
     height: 191px;
-    background-color: green;
+    background-image: url(/images/360_F_132916242_tuJWzeFgIThbBqwQSrqeXNzAOS6AZZzI.jpeg);
+    background-size: contain;
+    
+
+    
 }
 
 /* Section Produits*/
@@ -342,8 +358,8 @@ span i{
     cursor: pointer;
 }
 .div-prod:hover .boutton-panier{
-    background-color: orange;
-    color: green;
+    background-color: rgba(255, 0, 0, 0.176);
+    color: rgba(255, 0, 0, 0.685);
 }
 
 .div-details-haut{
