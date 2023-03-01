@@ -132,13 +132,19 @@ const image = document.querySelector("#image-principale");
 const tab = ["slide1.jpg", "slide2.jpeg", "slide3.webp", "slide4.webp", "slide5.jpeg", "slide6.jpeg"];
 let numero = 0;
 function changeImage(a){
+   
     if (a > 0){
         image.src = "images/" + tab[numero];
         numero += 1;
         if(numero == 5){numero = 0}
+        console.log("error");
+        
     }
+   
+
+
 }
-setInterval("changeImage(1)", 2000)
+setInterval(changeImage(1), 2000)
 
 
 
